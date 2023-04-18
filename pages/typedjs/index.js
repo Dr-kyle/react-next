@@ -19,13 +19,14 @@ export default function Home() {
       typeSpeed: 50,
       loop: false,
       smartBackspace: false,
-      startDelay: 1000,
+      // startDelay: 1000,
       cursorChar: '_',
       contentType: null
     });
     typedRef.current = typed
     return () => {
       typed.destroy();
+      stopClick()
     }
   }, [])
   

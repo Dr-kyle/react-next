@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.20.7":
+"@babel/runtime@^7.20.13", "@babel/runtime@^7.20.7":
   version "7.21.0"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@babel/runtime/-/runtime-7.21.0.tgz"
   integrity sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==
@@ -72,66 +72,6 @@
   dependencies:
     glob "7.1.7"
 
-"@next/swc-android-arm-eabi@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.2.4.tgz"
-  integrity sha512-DWlalTSkLjDU11MY11jg17O1gGQzpRccM9Oes2yTqj2DpHndajrXHGxj9HGtJ+idq2k7ImUdJVWS2h2l/EDJOw==
-
-"@next/swc-android-arm64@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-android-arm64/-/swc-android-arm64-13.2.4.tgz"
-  integrity sha512-sRavmUImUCf332Gy+PjIfLkMhiRX1Ez4SI+3vFDRs1N5eXp+uNzjFUK/oLMMOzk6KFSkbiK/3Wt8+dHQR/flNg==
-
-"@next/swc-darwin-arm64@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.2.4.tgz"
-  integrity sha512-S6vBl+OrInP47TM3LlYx65betocKUUlTZDDKzTiRDbsRESeyIkBtZ6Qi5uT2zQs4imqllJznVjFd1bXLx3Aa6A==
-
-"@next/swc-darwin-x64@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-darwin-x64/-/swc-darwin-x64-13.2.4.tgz"
-  integrity sha512-a6LBuoYGcFOPGd4o8TPo7wmv5FnMr+Prz+vYHopEDuhDoMSHOnC+v+Ab4D7F0NMZkvQjEJQdJS3rqgFhlZmKlw==
-
-"@next/swc-freebsd-x64@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-freebsd-x64/-/swc-freebsd-x64-13.2.4.tgz"
-  integrity sha512-kkbzKVZGPaXRBPisoAQkh3xh22r+TD+5HwoC5bOkALraJ0dsOQgSMAvzMXKsN3tMzJUPS0tjtRf1cTzrQ0I5vQ==
-
-"@next/swc-linux-arm-gnueabihf@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-linux-arm-gnueabihf/-/swc-linux-arm-gnueabihf-13.2.4.tgz"
-  integrity sha512-7qA1++UY0fjprqtjBZaOA6cas/7GekpjVsZn/0uHvquuITFCdKGFCsKNBx3S0Rpxmx6WYo0GcmhNRM9ru08BGg==
-
-"@next/swc-linux-arm64-gnu@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.2.4.tgz"
-  integrity sha512-xzYZdAeq883MwXgcwc72hqo/F/dwUxCukpDOkx/j1HTq/J0wJthMGjinN9wH5bPR98Mfeh1MZJ91WWPnZOedOg==
-
-"@next/swc-linux-arm64-musl@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.2.4.tgz"
-  integrity sha512-8rXr3WfmqSiYkb71qzuDP6I6R2T2tpkmf83elDN8z783N9nvTJf2E7eLx86wu2OJCi4T05nuxCsh4IOU3LQ5xw==
-
-"@next/swc-linux-x64-gnu@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.2.4.tgz"
-  integrity sha512-Ngxh51zGSlYJ4EfpKG4LI6WfquulNdtmHg1yuOYlaAr33KyPJp4HeN/tivBnAHcZkoNy0hh/SbwDyCnz5PFJQQ==
-
-"@next/swc-linux-x64-musl@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.2.4.tgz"
-  integrity sha512-gOvwIYoSxd+j14LOcvJr+ekd9fwYT1RyMAHOp7znA10+l40wkFiMONPLWiZuHxfRk+Dy7YdNdDh3ImumvL6VwA==
-
-"@next/swc-win32-arm64-msvc@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.2.4.tgz"
-  integrity sha512-q3NJzcfClgBm4HvdcnoEncmztxrA5GXqKeiZ/hADvC56pwNALt3ngDC6t6qr1YW9V/EPDxCYeaX4zYxHciW4Dw==
-
-"@next/swc-win32-ia32-msvc@13.2.4":
-  version "13.2.4"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.2.4.tgz"
-  integrity sha512-/eZ5ncmHUYtD2fc6EUmAIZlAJnVT2YmxDsKs1Ourx0ttTtvtma/WKlMV5NoUsyOez0f9ExLyOpeCoz5aj+MPXw==
-
 "@next/swc-win32-x64-msvc@13.2.4":
   version "13.2.4"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.2.4.tgz"
@@ -157,6 +97,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@panva/hkdf@^1.0.2":
+  version "1.0.4"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/@panva/hkdf/-/hkdf-1.0.4.tgz"
+  integrity sha512-003xWiCuvePbLaPHT+CRuaV4GlyCAVm6XYSbBZDHoWZGn1mNkVKFaDbGJjjxmEFvizUwlCoM6O18FCBMMky2zQ==
 
 "@pkgr/utils@^2.3.1":
   version "2.3.1"
@@ -489,6 +434,11 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
+
+cookie@^0.5.0:
+  version "0.5.0"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/cookie/-/cookie-0.5.0.tgz"
+  integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
 
 cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -993,11 +943,6 @@ fs.realpath@^1.0.0:
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
-fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/fsevents/-/fsevents-2.3.2.tgz"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
-
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/function-bind/-/function-bind-1.1.1.tgz"
@@ -1061,22 +1006,10 @@ glob-parent@~5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@^7.1.3:
-  version "7.2.3"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/glob/-/glob-7.2.3.tgz"
-  integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
-  dependencies:
-    fs.realpath "^1.0.0"
-    inflight "^1.0.4"
-    inherits "2"
-    minimatch "^3.1.1"
-    once "^1.3.0"
-    path-is-absolute "^1.0.0"
-
-glob@7.1.6:
-  version "7.1.6"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/glob/-/glob-7.1.6.tgz"
-  integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
+glob@^7.1.3, glob@7.1.7:
+  version "7.1.7"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/glob/-/glob-7.1.7.tgz"
+  integrity sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -1085,10 +1018,10 @@ glob@7.1.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@7.1.7:
-  version "7.1.7"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/glob/-/glob-7.1.7.tgz"
-  integrity sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==
+glob@7.1.6:
+  version "7.1.6"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/glob/-/glob-7.1.6.tgz"
+  integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -1431,6 +1364,11 @@ jiti@^1.17.2:
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/jiti/-/jiti-1.18.2.tgz"
   integrity sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==
 
+jose@^4.10.0, jose@^4.11.4:
+  version "4.13.1"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/jose/-/jose-4.13.1.tgz"
+  integrity sha512-MSJQC5vXco5Br38mzaQKiq9mwt7lwj2eXpgpRyQYNHYt2lq1PjkWa7DLXX0WVcQLE9HhMh3jPiufS7fhJf+CLQ==
+
 js-sdsl@^4.1.4:
   version "4.4.0"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/js-sdsl/-/js-sdsl-4.4.0.tgz"
@@ -1542,7 +1480,7 @@ micromatch@^4.0.4, micromatch@^4.0.5:
     braces "^3.0.2"
     picomatch "^2.3.1"
 
-minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
+minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.2:
   version "3.1.2"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/minimatch/-/minimatch-3.1.2.tgz"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
@@ -1554,12 +1492,7 @@ minimist@^1.2.0, minimist@^1.2.6:
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/minimist/-/minimist-1.2.8.tgz"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
-ms@^2.1.1:
-  version "2.1.3"
-  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/ms/-/ms-2.1.3.tgz"
-  integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
-
-ms@2.1.2:
+ms@^2.1.1, ms@2.1.2:
   version "2.1.2"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/ms/-/ms-2.1.2.tgz"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
@@ -1583,7 +1516,22 @@ natural-compare@^1.4.0:
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next@13.2.4:
+next-auth@^4.21.1:
+  version "4.21.1"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/next-auth/-/next-auth-4.21.1.tgz"
+  integrity sha512-NYkU4jAPSVxWhCblE8dDFAnKM7kOoO/QEobQ0RoEVP9Wox99A3PKHwOAsWhSg8ahJG/iKIWk2Bo1xHvsS4R39Q==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "@panva/hkdf" "^1.0.2"
+    cookie "^0.5.0"
+    jose "^4.11.4"
+    oauth "^0.9.15"
+    openid-client "^5.4.0"
+    preact "^10.6.3"
+    preact-render-to-string "^5.1.19"
+    uuid "^8.3.2"
+
+"next@^12.2.5 || ^13", next@13.2.4:
   version "13.2.4"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/next/-/next-13.2.4.tgz"
   integrity sha512-g1I30317cThkEpvzfXujf0O4wtaQHtDCLhlivwlTJ885Ld+eOgcz7r3TGQzeU+cSRoNHtD8tsJgzxVdYojFssw==
@@ -1623,10 +1571,20 @@ normalize-range@^0.1.2:
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/normalize-range/-/normalize-range-0.1.2.tgz"
   integrity sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==
 
+oauth@^0.9.15:
+  version "0.9.15"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/oauth/-/oauth-0.9.15.tgz"
+  integrity sha512-a5ERWK1kh38ExDEfoO6qUHJb32rd7aYmPHuyCu3Fta/cnICvYmgd2uhuKXvPD+PXB+gCEYYEaQdIRAjCOwAKNA==
+
 object-assign@^4.0.1, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/object-assign/-/object-assign-4.1.1.tgz"
   integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
+
+object-hash@^2.0.1:
+  version "2.2.0"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/object-hash/-/object-hash-2.2.0.tgz"
+  integrity sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==
 
 object-hash@^3.0.0:
   version "3.0.0"
@@ -1696,6 +1654,11 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
+oidc-token-hash@^5.0.1:
+  version "5.0.1"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/oidc-token-hash/-/oidc-token-hash-5.0.1.tgz"
+  integrity sha512-EvoOtz6FIEBzE+9q253HsLCVRiK/0doEJ2HCvvqMQb3dHZrP3WlJKYtJ55CRTw4jmYomzH4wkPuCj/I3ZvpKxQ==
+
 once@^1.3.0:
   version "1.4.0"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/once/-/once-1.4.0.tgz"
@@ -1711,6 +1674,16 @@ open@^8.4.0:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
+
+openid-client@^5.4.0:
+  version "5.4.0"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/openid-client/-/openid-client-5.4.0.tgz"
+  integrity sha512-hgJa2aQKcM2hn3eyVtN12tEA45ECjTJPXCgUh5YzTzy9qwapCvmDTVPWOcWVL0d34zeQoQ/hbG9lJhl3AYxJlQ==
+  dependencies:
+    jose "^4.10.0"
+    lru-cache "^6.0.0"
+    object-hash "^2.0.1"
+    oidc-token-hash "^5.0.1"
 
 optionator@^0.9.1:
   version "0.9.1"
@@ -1852,6 +1825,18 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+preact-render-to-string@^5.1.19:
+  version "5.2.6"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/preact-render-to-string/-/preact-render-to-string-5.2.6.tgz"
+  integrity sha512-JyhErpYOvBV1hEPwIxc/fHWXPfnEGdRKxc8gFdAZ7XV4tlzyzG847XAyEZqoDnynP88akM4eaHcSOzNcLWFguw==
+  dependencies:
+    pretty-format "^3.8.0"
+
+preact@^10.6.3, preact@>=10:
+  version "10.13.2"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/preact/-/preact-10.13.2.tgz"
+  integrity sha512-q44QFLhOhty2Bd0Y46fnYW0gD/cbVM9dUVtNTDKPcdXSMA7jfY+Jpd6rk3GB0lcQss0z5s/6CmVP0Z/hV+g6pw==
+
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/prelude-ls/-/prelude-ls-1.2.1.tgz"
@@ -1866,6 +1851,11 @@ prettier@^2.8.7, prettier@>=2.2.0:
   version "2.8.7"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/prettier/-/prettier-2.8.7.tgz"
   integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
+
+pretty-format@^3.8.0:
+  version "3.8.0"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/pretty-format/-/pretty-format-3.8.0.tgz"
+  integrity sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==
 
 prop-types@^15.8.1:
   version "15.8.1"
@@ -1891,7 +1881,7 @@ quick-lru@^5.1.1:
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/quick-lru/-/quick-lru-5.1.1.tgz"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-react-dom@^18.2.0, react-dom@18.2.0:
+"react-dom@^17.0.2 || ^18", react-dom@^18.2.0, react-dom@18.2.0:
   version "18.2.0"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -1904,7 +1894,7 @@ react-is@^16.13.1:
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@18.2.0:
+"react@^17.0.2 || ^18", react@^18.2.0, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@18.2.0:
   version "18.2.0"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -2310,6 +2300,11 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://a.newegg.org:443/artifactory/api/npm/yarn/uuid/-/uuid-8.3.2.tgz"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
