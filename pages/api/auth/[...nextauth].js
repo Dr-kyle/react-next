@@ -1,59 +1,127 @@
-import NextAuth from "next-auth"
-import CredentialsProvider from "next-auth/providers/credentials"
-export const authOptions = {
+import NextAuth from "next-auth";
+import CredentialsProvider from "next-auth/providers/credentials";
+import { setCookie } from "nookies";
+
+export const authOptions = (req, res) => {
   // Configure one or more authentication providers
-  providers:[
-    CredentialsProvider({
-      // The name to display on the sign in form (e.g. 'Sign in with...')
-      name: 'Credentials',
-      // The credentials is used to generate a suitable form on the sign in page.
-      // You can specify whatever fields you are expecting to be submitted.
-      // e.g. domain, username, password, 2FA token, etc.
-      // You can pass any HTML attribute to the <input> tag through the object.
-      credentials: {
-        username: { label: "Username", type: "text", placeholder: "jsmith" },
-        password: { label: "Password", type: "password" }
-      },
-      async authorize(credentials, req) {
-        // You need to provide your own logic here that takes the credentials
-        // submitted and returns either a object representing a user or value
-        // that is false/null if the credentials are invalid.
-        // e.g. return { id: 1, name: 'J Smith', email: 'jsmith@example.com' }
-        // You can also use the `req` object to obtain additional parameters
-        // (i.e., the request IP address)
-        // const res = await fetch("/your/endpoint", {
-        //   method: 'POST',
-        //   body: JSON.stringify(credentials),
-        //   headers: { "Content-Type": "application/json" }
-        // })
-        // const user = await res.json()
-  
-        // // If no error and we have user data, return it
-        // if (res.ok && user) {
-        //   return user
-        // }
-        // // Return null if user data could not be retrieved
-        // return null
-        return {
-            token: "dfsafafafsadfasdfsadffdasfdasf",
-            name: "kyle",
-            email: "kyle email",
-            picture: "",
-            sub: "sub xxxx"
+  return {
+    providers: [
+      CredentialsProvider({
+        // The name to display on the sign in form (e.g. 'Sign in with...')
+        name: "reactNext",
+        // The credentials is used to generate a suitable form on the sign in page.
+        // You can specify whatever fields you are expecting to be submitted.
+        // e.g. domain, username, password, 2FA token, etc.
+        // You can pass any HTML attribute to the <input> tag through the object.
+        // credentials: {
+        //   username: { label: "Username", type: "text", placeholder: "jsmith" },
+        //   password: { label: "Password", type: "password" },
+        // },
+        async authorize(credentials, reqq) {
+          // You need to provide your own logic here that takes the credentials
+          // submitted and returns either a object representing a user or value
+          // that is false/null if the credentials are invalid.
+          // e.g. return { id: 1, name: 'J Smith', email: 'jsmith@example.com' }
+          // You can also use the `req` object to obtain additional parameters
+          // (i.e., the request IP address)
+          // const res = await fetch("/your/endpoint", {
+          //   method: 'POST',
+          //   body: JSON.stringify(credentials),
+          //   headers: { "Content-Type": "application/json" }
+          // })
+          // const user = await res.json()
+
+          // // If no error and we have user data, return it
+          // if (res.ok && user) {
+          //   return user
+          // }
+          // // Return null if user data could not be retrieved
+          // return null
+          // setCookie({res}, 'test-cookie', "dfsafafafsadfasdfsadffdasfdasf", {
+          //   // maxAge: 2 * 24 * 60 * 60,
+          //   path: '/',
+          //   httpOnly: true
+          // })
+
+
+          // {
+          //   user: {
+          //     name: string
+          //     email: string
+          //     image: string
+          //   },
+          //   expires: Date // This is the expiry of the session, not any of the tokens within the session
+          // }
+          console.log("res----------------------------------------------------", credentials);
+          if (credentials.username == 'aaaa') {
+            return null
+          } else {
+            return {
+              token: "dfsafafafsadfasdfsadffdasfdasf",
+              name: credentials.username,
+              email: "kyle email",
+              picture: "",
+              sub: "sub xxxx",
+              phone: "13536",
+            }
+          }
+          // return {
+          //   token: "dfsafafafsadfasdfsadffdasfdasf",
+          //   name: "kyle",
+          //   email: "kyle email",
+          //   picture: "",
+          //   sub: "sub xxxx",
+          //   phone: "13536",
+          // };
+        },
+      }),
+      // ...add more providers here
+    ],
+    callbacks: {
+      // async signIn({ user, account, profile, email, credentials }) {
+      //   return true
+      // },
+      // async redirect({ url, baseUrl }) {
+      //   return baseUrl
+      // },
+      // async session({ session, token, user }) {
+      //   return session
+      // },
+      // async jwt({ token, user, account, profile, isNewUser }) {
+      //   return token
+      // }
+      async jwt({ token, user }) {
+        // console.log("jwt token", token);
+        // console.log("jwt user", user);
+        if (user) {
+          token.backendToken = user.token;
+          token.phone = user.phone;
         }
-      }
-    })
-    // ...add more providers here
-  ],
-  callbacks: {
-    async jwt(data) {
-      console.log('jwt method', data)
-      return data.token
+        return token;
+      },
+      async session({ session, token, user }) {
+        // console.log("session start", session);
+        // console.log("session token", token);
+        // console.log("session user", user);
+        session.user.backendToken = token.backendToken;
+        session.user.phone = token.phone;
+        // console.log("session end", session);
+        return session;
+      },
     },
-    async session(data) {
-      console.log('session', data)
-      return data.session
-    },
-  }
-}
-export default NextAuth(authOptions)
+    pages: {
+      signIn: '/login',
+    }
+  };
+};
+
+const Test = (req, res) => {
+  return NextAuth(req, res, authOptions(req, res));
+};
+
+// export default function handler(req, res) {
+//   return NextAuth(req, res, nextAuthOptions(req, res))
+// }
+
+export default Test;
+// export default NextAuth(authOptions)
